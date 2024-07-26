@@ -4,7 +4,8 @@ import { useRouter } from "next/navigation"
 import Deliveryheader from "../deliveryheader/page"
 
 import './dashboard.css'
-const { useEffect, useState } = require("react")
+import { useState,useEffect } from "react"
+
 
 const DeliveryDashboard=()=>{
   const router=useRouter()

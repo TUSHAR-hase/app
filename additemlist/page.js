@@ -83,7 +83,7 @@ console.log(responce)
                                 <td>{item.price}</td>
                                 <td><img src={item.path}/></td>
                                 <td>{item.description}</td>
-                                <td><button onClick={()=>deleteitem(item._id)}>Delete</button>
+                                <td className="td"><button onClick={()=>deleteitem(item._id)}>Delete</button>
                                     <button onClick={()=> {router.push("/dashboard/"+item._id)}}>Edit</button></td>
                             </tr>
                         ))

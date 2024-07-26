@@ -12,7 +12,7 @@ export async function GET(req,resp) {
    let success = false
    let result ;
    await mongoose.connect(connectionstr, { useNewUrlParser: true });
-   result = await orderSchema.find({ delivery_id: id })
+   result = await orderSchema.find({ deliveryboy_id: id })
   
    if (result) {
       let restodata = await Promise.all(

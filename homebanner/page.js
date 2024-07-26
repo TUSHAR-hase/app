@@ -70,7 +70,7 @@ const router=useRouter();
                <div className="mainbox">
                   <div className="box1"><h1 id="h1" >Everything <br></br>is better With a  <div id="pizza">pizza</div></h1>
 
-                     <button id="button1">ORDER NOW</button>
+                     <button onClick={()=>router.push('/user_auth')} id="button1">ORDER NOW</button>
                   </div>
                   <div className="box1"> <Image alt="image" priority={true} height={231} width={331} src={bgimg} id="bgimg"></Image></div>
                </div>
@@ -82,7 +82,7 @@ const router=useRouter();
                resturent.map((item) => (
                   <div onClick={()=>router.push("explor/"+item.name+"?id="+item._id)} className='resturentbox1'>
                      <div>
-                        <h1>{item.name}</h1>
+                        <h1 id='h1'>{item.name}</h1>
                         <h4>contect:{item.contect}</h4>
                      </div>
                      <div className='resturentbox3'>location:{item.address}<br></br><br></br> Email:{item.email}</div>

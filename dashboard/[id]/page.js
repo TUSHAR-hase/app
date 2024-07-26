@@ -1,8 +1,9 @@
 "use client"
-const { useState, useEffect } = require("react");
+
 
 import { useRouter } from 'next/navigation';
 import '../dashboard.css';
+import { useState ,useEffect} from 'react';
 const Editfooditem = (probs) => {
  
     const [name, setname] = useState("");

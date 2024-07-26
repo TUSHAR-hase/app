@@ -87,7 +87,7 @@ const Customerheader = (props) => {
                 <div className="rightnav">
 
                     <div className="customerlink"><Link className="Link" href={cartnumber ? '/cart' : '/'}>Cart({cartnumber ? cartnumber : 0})</Link></div>
-                    <div className="customerlink"><Link className="Link" href='/'>Add Resturent</Link></div>
+                    <div className="customerlink"><Link className="Link" href='/signup'>Add Resturent</Link></div>
                     <div className="customerlink"><Link className="Link" href='/myprofile'>Profile</Link></div>
                     <div className="customerlink"><Link className="Link" href='/deliverypartner'>DeliveryPartner</Link></div>
                     {

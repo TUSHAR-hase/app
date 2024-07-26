@@ -2,11 +2,12 @@ table,th,td{
     border: 3px solid black;
     border-collapse: collapse;
     padding: 20px;
-    
+   
     font-size: 20px;
     font-weight: bold;
 
 }
+
 td button{
     margin-left: 10px;
     background-color: blue;
@@ -16,6 +17,7 @@ td button{
     border: none;
     border-radius: 24px;
     font-weight: 500;
+    
     font-size: 15px
 }
 td button:hover{
@@ -24,6 +26,8 @@ td button:hover{
     transform-style: preserve-3d;
     transition-duration: 1s;
     cursor: pointer;
+    z-index: 1;
+   
 }
 .tablebox{
 margin-top: 35px;

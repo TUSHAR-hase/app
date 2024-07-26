@@ -1,5 +1,6 @@
 
-const { useState } = require("react");
+'use client'
+import { useState } from 'react';
 import Header from '../header/page';
 import './addfood.css';
 const Addfooditem = (probs) => {

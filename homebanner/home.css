@@ -4,6 +4,7 @@
 #bgimg{
    /* height: 231px;
    width: 331px; */
+
    border-radius: 125px;
    margin-top: 33px
 }
@@ -131,12 +132,13 @@ display: flex;
 .resturentbox1{
    color: white;
    font-family: sans-serif;
-   background-color:  #0000c0;
+   background-color:  blue;
    height: 223px;
    width: 238px;
    border-radius: 19px;
    margin-left: 18px;
    margin-top: 14px;
+ 
    padding: 23px;
 }
 .resturent3{

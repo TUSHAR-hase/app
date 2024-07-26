@@ -4,7 +4,8 @@ import Customerheader from '../customercomponent/customerheader'
 
 import './delivery.css'
 import Deliveryheader from '../deliveryheader/page'
-const { useState ,useEffect } = require("react")
+import { useState,useEffect } from 'react'
+
 
 const Deliverysignup= () => {
    
